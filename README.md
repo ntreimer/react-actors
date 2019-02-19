@@ -1,6 +1,6 @@
-# react-actors
+# React Actors
 
-Create an application for the React Actors
+Create an application for the React Actors - a troop of impersonators and improvisors.
 
 ## Requirements
 
