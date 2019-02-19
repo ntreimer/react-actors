@@ -69,3 +69,5 @@ We need to let new people join the react actors. Watch this clip to see what we 
 - The form should clear after click
 
 ![Stretch Goals](images/stretch-goals.gif)
+
+Here is a deployed version with stretch goals: https://react-actors.netlify.com/
