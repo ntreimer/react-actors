@@ -2,6 +2,8 @@
 
 Create an application for the React Actors - a troop of impersonators and improvisors.
 
+Do not fork and clone this repo. These are just instructions. Instead, use `create-react-app` to create a new react application on your computer.
+
 ## Requirements
 
 Your react application should have five components.
