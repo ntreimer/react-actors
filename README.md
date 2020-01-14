@@ -4,6 +4,11 @@ Create an application for the React Actors - a troop of impersonators and improv
 
 Do not fork and clone this repo. These are just instructions. Instead, use `create-react-app` `npx create-react-app cra-orientation --scripts-version 2.1.8` to create a new react application on your computer.
 
+In order to turn this in, you'll need to go to github, and create an empty repository. 
+*DO NOT initialize with a readme.*
+
+Then, when you have an empty repo, you'll need to follow the instructions for `…or push an existing repository from the command line` 
+
 ## Requirements
 
 Your react application should have five components.
