@@ -2,7 +2,7 @@
 
 Create an application for the React Actors - a troop of impersonators and improvisors.
 
-Do not fork and clone this repo. These are just instructions. Instead, use `create-react-app` to create a new react application on your computer.
+Do not fork and clone this repo. These are just instructions. Instead, use `create-react-app` `npx create-react-app cra-orientation --scripts-version 2.1.8` to create a new react application on your computer.
 
 ## Requirements
 
