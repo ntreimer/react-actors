@@ -43,7 +43,7 @@ function Contact() {
     let createMessage = (event) => {
         console.log('in createMessage', event.target.value);
         if (firstName !== '' && lastName !== '') {
-            setMessage(firstName + lastName`'s best impression is ` + event.target.value); 
+            setMessage(firstName + lastName + `'s best impression is ` + event.target.value); 
         }
     }
 
