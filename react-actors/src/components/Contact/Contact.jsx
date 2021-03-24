@@ -46,6 +46,17 @@ function Contact() {
             setMessage(firstName + lastName + `'s best impression is ` + event.target.value); 
         }
     }
+    let handleJoin = () => {
+        if (message === '') {
+            alert('Please fill out the form.');
+        }
+        else {
+            alert(`Welcome, ${firstName}!`);
+            firstNameSet('');
+            lastNameSet('');
+            setMessage('');
+        }
+    }
 
     return (
         <div>
@@ -53,7 +64,7 @@ function Contact() {
             <input type="text" placeholder="First Name" onChange={handleFirst}/>
             <input type="text" placeholder="Last Name" onChange={handleLast}/>
             <input type="text" placeholder="Best impression" onChange={createMessage}/>
-            <button type="submit">Join us!</button>
+            <button type="submit" onClick={handleJoin}>Join us!</button>
             <p>{message}</p>
             <p>Phone number: 1-800-NICK-AGE</p>
             <p>E-mail: actors@acting.com</p>
